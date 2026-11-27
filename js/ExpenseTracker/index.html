@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div id="form-container">
+            <form>
+                <input type="text" id="title" placeholder="Title"> <br>
+                <input type="text" id="amount" placeholder="Amount"> <br>
+                <input type="text" id="category" placeholder="Category"> <br>
+                <input type="date" id="date" placeholder="Date"> <br>
+                <button type="button" id="add">Add</button>
+            </form>
+        </div>
+        <div id="filter-container"> 
+            <select id="filter">
+                <option value="all">All</option>
+                <option value="title">title</option>
+                <option value="amount">Amount</option>
+                <option value="category">Category</option>
+                <option value="date">Date</option>
+            </select>
+            <input id="search" placeholder="Search"> <br>
+        </div>
+        <div id="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Title</th>
+                        <th>Amount</th>
+                        <th>Category</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    
+                        
+                </tbody>
+            </table>
+            </div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
